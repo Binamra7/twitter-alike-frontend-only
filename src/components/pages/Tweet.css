@@ -1,0 +1,12 @@
+.tweet {
+  display: flex;
+  width: 700px;
+  height: 200px;
+  background-color: rgb(202, 241, 29);
+  border-radius: 10px;
+  margin: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  /* 
+  margin: 20px; */
+}

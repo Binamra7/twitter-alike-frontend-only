@@ -1,0 +1,14 @@
+.tweet__button {
+  bottom: 2rem;
+  width: 250px;
+  height: 60px;
+  right: 2rem;
+  color: #fff;
+  border-radius: 40px;
+  padding: 0.5rem;
+  border: none;
+  background-color: #1d9bf0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}

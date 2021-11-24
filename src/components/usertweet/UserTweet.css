@@ -1,0 +1,14 @@
+.user__tweet {
+  z-index: 999;
+  background-color: purple;
+  height: 40vh;
+  width: 30%;
+  /* float: bottom; */
+  margin-top: 60vh;
+  position: fixed;
+  border-radius: 10px;
+  display: grid;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,13 @@
+.user__card {
+  margin-top: 8rem;
+}
+
+.user__card h1 {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #2a7288;
+  color: white;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: lighter;
+}
