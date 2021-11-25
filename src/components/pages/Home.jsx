@@ -31,11 +31,6 @@ const dummyTweet = [
 function Home(props) {
   const [tweet, setTweet] = useState(dummyTweet);
 
-//   console.log(tweet);
-    // console.log(props.data);
-    
-    
-
     useEffect(() => {
     //   props.data.tweet!==undefined &&
     // setTweet([
@@ -55,24 +50,20 @@ function Home(props) {
         axios.get("https://twitter-alike.herokuapp.com/exercises")
       .then(res => {
         console.log(res.data);
-          setTweet(res.data);
-        
-          
+          setTweet(res.data);      
       })
   }, [props]);
-//myArray.slice(0).reverse().map
+ 
+  
   return (
     <div className="home">
       <h1 className="home__heading">Home</h1>
       <div className="tweet-list">
-        {tweet.slice(0).reverse().map((tweet) =>
-          
+        {tweet.slice(0).reverse().map((tweet) =>          
             <Tweet key={tweet.id} user={tweet.username} tweet={tweet.description} />
           )
-        }
-        )
+        }        
       </div>
-      {/* {finalTweet} */}
     </div>
   );
 }

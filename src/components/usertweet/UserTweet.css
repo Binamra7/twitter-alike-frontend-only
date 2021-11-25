@@ -1,14 +1,27 @@
 .user__tweet {
   z-index: 999;
-  background-color: purple;
+  background-color: rgb(0, 0, 0);
   height: 40vh;
   width: 30%;
-  /* float: bottom; */
   margin-top: 60vh;
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
   position: fixed;
-  border-radius: 10px;
   display: grid;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
+}
+
+label {
+  color: white;
+}
+
+input {
+  height: 1.5rem;
+  border-radius: 10px;
+  background: burlywood;
+  border: none;
+  padding: 5px;
+  margin-top: -5px;
+  width: 100%;
 }

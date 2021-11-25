@@ -46,7 +46,7 @@ function User() {
   return (
       <div className="user__card">
           {user.map((user, id) => <h1 key={id}>{user.username}</h1>)}
-    </div>
+      </div>
   );
 }
 
